@@ -1,0 +1,29 @@
+.profileContainer {
+  display: flex;
+  align-items: center;
+}
+
+.profileImage {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+}
+
+.profileContainer div {
+  margin-left: 1.5rem;
+}
+
+.profileName {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--title);
+}
+
+.profileLevel {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+.profileLevel img {
+  margin-right: 0.5rem;
+}

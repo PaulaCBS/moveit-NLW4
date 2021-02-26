@@ -1,0 +1,42 @@
+.experienceMeter {
+  display: flex;
+  align-items: center;
+}
+
+.experienceLimits {
+  font-size: 1rem;
+}
+
+.experienceWrapper {
+  position: relative;
+  flex: 1;
+  
+  height: 4px;
+  margin: 0 1.5rem;
+  border-radius: 4px;
+  background: var(--gray-line);
+}
+
+.experienceBar {
+  position: relative;
+  height: 4px;
+  border-radius: 4px;
+  background: var(--green);
+}
+
+.experienceBarIndicator {
+  position: absolute;
+  top: -3px;
+  right: 0;
+  content: '';
+  width: 3px;
+  height: 10px;
+  background: var(--text);
+}
+
+.currentXp {
+  position: absolute;
+  top: 12px;
+  font-size: 0.8rem;
+  transform: translateX(-50%);
+}
